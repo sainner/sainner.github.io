@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "PersonalWebsite_Sainner"
+title                    : "Sainner"
 title_separator          : "-"
-name                     : &name "卢湘粤"
+name                     : &name "卢湘粤/Lu Xiangyue"
 description              : &description "personal description"
 url                      : https://sainner.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -80,14 +80,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "卢湘粤"
+  name             : "卢湘粤/Lu Xiangyue"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  bio              : "目前就读于上海交通大学设计学院建筑学系，正在积极探索我的工作方向\n\
+                      I am majoring in Architecture Design in School of Design, Shanghai Jiaotong University. I am actively exploring my direction of working."
+  location         : "上海/Shanghai"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+  email            :  "sainner@qq.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,7 +97,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "sainner"
   google_plus      :
   keybase          :
   instagram        :
@@ -109,9 +110,9 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : 
   vine             :
-  weibo            :
+  weibo            : 
   xing             :
   youtube          :
   wikipedia        :
