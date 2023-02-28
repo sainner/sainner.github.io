@@ -49,7 +49,7 @@ For more info
 ------
 More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
 
-<table>
+<table boarder="0" cellspacing="0" cellpadding="0">
     <tr>
         <td width="20%">2018</td>
         <td>我转专业至上海交通大学设计学院建筑学系</td>
