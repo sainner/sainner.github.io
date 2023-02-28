@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Sainner"
 title_separator          : "-"
-name                     : &name "卢湘粤/Lu Xiangyue"
+name                     : &name "卢湘粤 / Lu Xiangyue"
 description              : &description "personal description"
 url                      : https://sainner.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "卢湘粤/Lu Xiangyue"
+  name             : "卢湘粤 / Lu Xiangyue"
   avatar           : "profile.png"
-  bio              : "目前就读于上海交通大学设计学院建筑学系，正在积极探索我的工作方向<br>
+  bio              : "目前就读于上海交通大学设计学院建筑学系，正在积极探索我的工作方向。<br>
                       I am majoring in Architecture Design in School of Design, Shanghai Jiaotong University. I am actively exploring my direction of working."
   location         : "上海/Shanghai"
   employer         :
