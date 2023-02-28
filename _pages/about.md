@@ -52,10 +52,10 @@ More info about configuring academicpages can be found in [the guide](https://ac
 <table>
     <tr>
         <td width="20%">2018</td>
-        <td width="20%">2023</td>
+        <td>我转专业至上海交通大学设计学院建筑学系</td>
     </tr>
     <tr>
-        <td>我转专业至上海交通大学设计学院建筑学系</td>
+        <td width="20%">2023</td>
         <td>本科毕业</td>
     </tr>
 </table>
