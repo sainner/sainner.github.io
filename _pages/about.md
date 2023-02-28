@@ -59,3 +59,201 @@ More info about configuring academicpages can be found in [the guide](https://ac
         <td>本科毕业</td>
     </tr>
 </table>
+
+[时间安排](%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1+aa487dfe-fbfc-4e8a-adb8-cd816b3b2904/%E6%97%B6%E9%97%B4%E5%AE%89%E6%8E%92%202d70eb94-3ecf-4053-a536-95b5381be321.csv)
+
+# 文献阅读及调研、方案构思
+
+- [上海一江一河规划以及黄浦江客运与水运规划与情况的调查](https://flowus.cn/5c6bb8ef-8b94-400b-be46-069c039a525d)；
+
+- [国内外最新滨水步道、公共空间以及客运码头的案例、研究等收集整理](https://flowus.cn/dd7fdafd-d830-473b-b417-49fa7a59cf6f)；@周茉
+
+- [国内外最新城市设计，组团和街区等设计的案例收集整理，关注非居住的商业和公共街区](https://flowus.cn/4a08fa26-9b13-495e-897e-3d852373de54)；@胡啸
+
+- [国内外城市新技术在设计、建设、节能等方面的前沿应用与案例](https://flowus.cn/f8e763c2-9c6d-4e00-af0b-047b6f835eef)；@温世康
+
+# 研究方向
+
+基于VR和眼动追踪数据的TOD通道空间
+
+
+
+  程序（游戏？）开发
+
+    **支持建筑模型导入**
+以便于重复修改迭代
+
+      支持渲染？
+
+    **面向大众发布**
+以增加数据样本容量
+
+      吸引力？
+
+      元宇宙概念为平台？
+
+    **后台收集数据**
+以导出处理数据
+
+  数据处理
+
+    数据类型
+
+      VR数据
+
+        停留点
+
+        某个停留点的停留时间
+
+        行进路线
+
+      眼动追踪数据
+
+        视觉停留点
+
+          街道界面
+
+          街道路面
+
+          不同材质的表皮
+
+          ……
+
+        扫描路径
+
+        停留时间
+
+        频次
+
+    权重分配
+
+    可视化
+
+  目前问题
+
+    如何与TOD联系起来？
+
+    如何将论文中的城市设计成果迁移到建筑设计中去？
+即该设计方法可以同时应用在城市设计和建筑设计中的哪些地方？我该怎样找到它们之间的联系
+
+  研究问题
+
+    ~~TOD垂直交通空间设计？~~
+
+      空间节点
+
+      空间边界
+
+      空间组织方式
+
+      与其他空间结合后形成的复杂界面对交通空间的干扰？
+
+        有什么干扰
+
+        为什么会干扰
+
+          材质
+
+          空间形态被改变
+
+          空间氛围distract
+
+        怎样干扰？
+
+        干扰了哪一部分人
+
+        在哪个场景最容易产生这种干扰
+
+    TOD 通道空间设计
+
+      引导性
+
+        自然光线
+
+        高宽比
+
+        可视化、广告的影响
+
+        材质
+
+        ……
+
+> ~~利用元宇宙可以快速建设和修改的特性，不断收集元宇宙中的虚拟数据（交通？、眼动数据）指导现实的TOD综合体设计（VTOD）~~
+
+> ~~根据不同的设计建立沉浸式场景（全景图片、VR环境），收集眼球停留数据、在某个场景的停留时间、行走流线，指导设计方案的选择~~
+
+> ~~根据相同的设计建立沉浸式场景（全景图片、VR环境），收集眼球停留数据、在某个场景的停留时间、行走流线，指导设计方案的深化~~
+
+## 技术路线
+
+### 硬件：集成眼动追踪技术的VR设备（PICO）
+
+
+
+
+
+[zhuanlan.zhihu.com](https://zhuanlan.zhihu.com/p/210463354)
+你需要了解的人类眼动的背景知识
+
+
+
+[zhuanlan.zhihu.com](https://zhuanlan.zhihu.com/p/509381410)
+PICO SDK导入Unity
+
+
+
+
+
+[developer-cn.pico-interactive.com](https://developer-cn.pico-interactive.com/developer-program)
+PICO开发者计划
+
+
+
+
+
+### 软件：算法实现（数据收集、数据处理）
+
+
+
+
+
+![Screenshot_2023-02-24-21-23-27-111_tv.danmaku.bili.jpg](毕业设计+aa487dfe-fbfc-4e8a-adb8-cd816b3b2904/Screenshot_2023-02-24-21-23-27-111_tv.danmaku.bili.jpg)
+
+[HTC VIVE pro eye + Unity SDK 研究记录 · 语雀](https://www.yuque.com/ogongqingo/fac2z4/yu9vb3)
+代码
+
+
+
+[https://www.bilibili.com/video/BV1FL41157F2/?spm_id_from=333.999.0.0](https://www.bilibili.com/video/BV1FL41157F2/?spm_id_from=333.999.0.0)
+
+[眼动追踪技术中8个常用指标与术语](https://zhuanlan.zhihu.com/p/73949336)
+眼动追踪生成的数据类型
+
+[Unity - Getting started - Tobii Pro SDK documentation](https://developer.tobiipro.com/unity/unity-getting-started.html)
+Tobbi SDK API 
+
+[HTC Vive Pro eye 眼动数据简单获取_htc vive pro eye眼动数据简单获取_Farewell弈的博客-CSDN博客](https://blog.csdn.net/qq_41205665/article/details/124409733)
+
+【2022C#Unity3D/UnityVR零基础教程(U3D零基础教程/VR全景图片/VR视频播放/VR相机旋转/零基础U3D学习资源）B0315-哔哩哔哩】 [https://b23.tv/3DBtYiE](https://b23.tv/3DBtYiE)
+
+![设计方法图解](毕业设计+aa487dfe-fbfc-4e8a-adb8-cd816b3b2904/7eb3aafa614d4b3aacf49105dcfdee7.jpg)
+设计方法图解
+
+## 文献阅读
+
+[待读文献](%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1+aa487dfe-fbfc-4e8a-adb8-cd816b3b2904/%E5%BE%85%E8%AF%BB%E6%96%87%E7%8C%AE%20f7374b1b-d99a-4df2-a46d-88ca4d2ee210.md)
+
+
+
+
+
+[基于Unity3D的眼动数据收集及处理方法](毕业设计+aa487dfe-fbfc-4e8a-adb8-cd816b3b2904/基于VR眼动数据的空间环境...喀什高台民居保护与设计为例_臧伟.pdf)
+基于Unity3D的眼动数据收集及处理方法
+
+
+
+[kns.cnki.net](https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C475KOm_zrgu4sq25HxUBNNTmIbFx6y0bOQ0cH_CuEtpsBxp_L8clkajdG2mwoGABMuN0gHRb3QEX1G3vNJp3Fit&uniplatform=NZKPT)
+应用：基于VR和眼动仪的步行商业街侧界面形态设计与感知研究
+
+
+
