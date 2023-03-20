@@ -1,0 +1,48 @@
+$header1: 2.5rem;
+$header2: 4.5rem;
+$header3: 3rem;
+$header4: 3.5rem;
+$text: 2.5rem;
+$gradient: linear-gradient(left, #38d39f, #38a4d3);
+$background-color: #154353;
+$gray_text: #2c2c2c;
+
+@mixin flex($justify, $align, $direction) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Slackey&display=swap");
+
+@import "global";
+@import "intro";
+
+@media screen and (max-width: 820px) {
+  html {
+    font-size: 45%;
+  }
+
+  .intro {
+    min-height: calc(88vh - $text - 6rem);
+    .intro_text {
+      h2 {
+        padding: 0 0 2rem 0;
+      }
+    }
+    background-color: rgba(255, 255, 255, 0.664);
+  }
+}
+@media screen and (max-width: 400px) {
+  .intro {
+    min-height: calc(88vh - $text - 6rem);
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+    .intro_text {
+      text-align: center;
+      padding: 2rem 2rem;
+    }
+  }
+}
